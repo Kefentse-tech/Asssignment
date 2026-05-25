@@ -298,7 +298,7 @@ public class Quickchat_part1{
              scanner.close();
     }
 
- static void runQuickChat() {  
+ static void runQuickChat() {   
         System.out.println("\nWelcome to QuickChat.");
         System.out.print("How many messages would you like to send? ");
         maxMessages = Integer.parseInt(scanner.nextLine().trim());
