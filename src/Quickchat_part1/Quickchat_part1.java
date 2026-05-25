@@ -331,7 +331,7 @@ public class Quickchat_part1{
     }
 
     
-    static void sendMessages(){
+    static void sendMessages(){  
         if (numMessageSent >= maxMessages) {
             System.out.println("Message limit of " + maxMessages + " reached.");
             return;
